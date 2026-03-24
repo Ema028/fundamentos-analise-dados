@@ -4,7 +4,6 @@ import plotly.express as px
 import seaborn as sns
 
 df = pd.read_csv("mercado.csv", delimiter=',')
-df.head(10)
 
 stats_precos = df.groupby('Categoria')['Preco_Normal'].agg(['mean', 'median']).reset_index()
 
