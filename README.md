@@ -11,6 +11,8 @@ O foco aqui é consolidar a base técnica necessária antes da construção de p
 * `extracao_catalogo_livros.py`
   Script para coleta de dados de um site utilizando requisições a uma API.
 
+* `ecommerce_sql/`
+  Script com consultas SQL para extração de informações em banco de dados relacional
 
 ### Visualização de Dados
 
@@ -19,9 +21,7 @@ O foco aqui é consolidar a base técnica necessária antes da construção de p
 
 ### Tratamento de Dados
 
-* `tratamento_dados/`
-* `ecommerce_dados/`
-
+* `tratamento_dados/` e `ecommerce_dados/`
 Exercícios focados em limpeza de dados e preparação de datasets para análise
 
 ### Análise Exploratória Inicial
